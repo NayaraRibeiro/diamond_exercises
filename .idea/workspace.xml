@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b776752-665a-4d1c-b59c-520add3b5113" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/diamondApp.java" afterPath="$PROJECT_DIR$/src/main/java/DiamondApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/diamondApp.class" afterPath="$PROJECT_DIR$/target/classes/diamondApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/exercises/Diamond.java" afterPath="$PROJECT_DIR$/src/main/java/exercises/Diamond.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/exercises/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="255">
+              <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -52,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiamondApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiamondApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DiamondApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -85,9 +83,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/diamondApp.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/exercises/Diamond.java" />
         <option value="$PROJECT_DIR$/src/test/java/exercises/DiamondTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DiamondApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exercises/Diamond.java" />
       </list>
     </option>
   </component>
@@ -746,7 +744,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496624365540</updated>
-      <workItem from="1496624367260" duration="2259000" />
+      <workItem from="1496624367260" duration="2415000" />
     </task>
     <servers />
   </component>
@@ -783,7 +781,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2259000" />
+    <option name="totallyTimeSpent" value="2415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -843,10 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exercises/Diamond.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiamondApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="105">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -863,10 +861,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DiamondApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/exercises/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        <state relative-caret-position="255">
+          <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
           <folding />
         </state>
       </provider>

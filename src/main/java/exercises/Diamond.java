@@ -9,13 +9,13 @@ public class Diamond {
     public String isoscelesTriangle(Integer numberOfLines) {
         String isoscelesTriangle = "";
 
-        for (int i=0; i < numberOfLines; i++)
+        for (int index = 0; index < numberOfLines; index ++)
         {
-            for (int k=0; k < numberOfLines - i; k++)
+            for (int kIndex=0; kIndex < numberOfLines - index; kIndex++)
             {
                 isoscelesTriangle += SPACE;
             }
-            for (int j=0; j<i*2+1; j++)
+            for (int jIndex = 0; jIndex < index * 2 + 1; jIndex++)
             {
                 isoscelesTriangle += ASTERISK;
             }
