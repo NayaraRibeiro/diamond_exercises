@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b776752-665a-4d1c-b59c-520add3b5113" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DiamondApp.java" afterPath="$PROJECT_DIR$/src/main/java/DiamondApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/exercises/Diamond.java" afterPath="$PROJECT_DIR$/src/main/java/exercises/Diamond.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/exercises/DiamondTest.java" afterPath="$PROJECT_DIR$/src/test/java/exercises/DiamondTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,21 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/exercises/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#792#793#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiamondTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DiamondTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/exercises/DiamondTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="345">
+              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
@@ -53,8 +57,8 @@
       <file leaf-file-name="DiamondApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DiamondApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            <state relative-caret-position="120">
+              <caret line="8" column="77" lean-forward="false" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -84,8 +88,8 @@
         <option value="$PROJECT_DIR$/src/main/java/diamondApp.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/exercises/DiamondTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DiamondApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/exercises/Diamond.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DiamondApp.java" />
       </list>
     </option>
   </component>
@@ -273,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiamondApp">
+  <component name="RunManager" selected="JUnit.DiamondTest.shouldReturnCenteredDiamond">
     <configuration default="false" name="DiamondTest.shouldReturnIsocelesTriangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -328,6 +332,32 @@
       <option name="PACKAGE_NAME" value="exercises" />
       <option name="MAIN_CLASS_NAME" value="exercises.DiamondTest" />
       <option name="METHOD_NAME" value="shouldReturnIsoscelesTriangle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DiamondTest.shouldReturnCenteredDiamond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="diamondexercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.DiamondTest" />
+      <option name="METHOD_NAME" value="shouldReturnCenteredDiamond" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -721,16 +751,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondTest.shouldReturnIsocelesTriangle" />
       <item index="1" class="java.lang.String" itemvalue="Application.DiamondApp" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest.shouldReturnIsoscelesTriangle" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.shouldReturnCenteredDiamond" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.DiamondApp" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest.shouldReturnIsoscelesTriangle" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest.shouldReturnIsocelesTriangle" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondTest.shouldReturnCenteredDiamond" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DiamondApp" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest.shouldReturnIsoscelesTriangle" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.shouldReturnIsocelesTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -744,34 +776,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496624365540</updated>
-      <workItem from="1496624367260" duration="2415000" />
+      <workItem from="1496624367260" duration="3742000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiamondTest_shouldReturnIsoscelesTriangle - 2017.06.04 at 22h 32m 56s.xml">
-      <configuration name="DiamondTest.shouldReturnIsoscelesTriangle" configurationId="JUnit" />
+    <history-entry file="DiamondTest_shouldReturnCenteredDiamond - 2017.06.04 at 22h 46m 40s.xml">
+      <configuration name="DiamondTest.shouldReturnCenteredDiamond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_shouldReturnIsoscelesTriangle - 2017.06.04 at 22h 33m 21s.xml">
-      <configuration name="DiamondTest.shouldReturnIsoscelesTriangle" configurationId="JUnit" />
+    <history-entry file="DiamondTest_shouldReturnCenteredDiamond - 2017.06.04 at 22h 51m 47s.xml">
+      <configuration name="DiamondTest.shouldReturnCenteredDiamond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_shouldReturnIsoscelesTriangle - 2017.06.04 at 22h 33m 35s.xml">
-      <configuration name="DiamondTest.shouldReturnIsoscelesTriangle" configurationId="JUnit" />
+    <history-entry file="DiamondTest_shouldReturnCenteredDiamond - 2017.06.04 at 22h 52m 25s.xml">
+      <configuration name="DiamondTest.shouldReturnCenteredDiamond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_shouldReturnIsoscelesTriangle - 2017.06.04 at 22h 33m 41s.xml">
-      <configuration name="DiamondTest.shouldReturnIsoscelesTriangle" configurationId="JUnit" />
+    <history-entry file="DiamondTest_shouldReturnCenteredDiamond - 2017.06.04 at 22h 53m 01s.xml">
+      <configuration name="DiamondTest.shouldReturnCenteredDiamond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_shouldReturnIsoscelesTriangle - 2017.06.04 at 22h 33m 51s.xml">
-      <configuration name="DiamondTest.shouldReturnIsoscelesTriangle" configurationId="JUnit" />
+    <history-entry file="DiamondTest_shouldReturnCenteredDiamond - 2017.06.04 at 22h 53m 19s.xml">
+      <configuration name="DiamondTest.shouldReturnCenteredDiamond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_shouldReturnIsoscelesTriangle - 2017.06.04 at 22h 34m 11s.xml">
-      <configuration name="DiamondTest.shouldReturnIsoscelesTriangle" configurationId="JUnit" />
+    <history-entry file="DiamondTest_shouldReturnCenteredDiamond - 2017.06.04 at 22h 59m 19s.xml">
+      <configuration name="DiamondTest.shouldReturnCenteredDiamond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_shouldReturnIsoscelesTriangle - 2017.06.04 at 22h 38m 33s.xml">
-      <configuration name="DiamondTest.shouldReturnIsoscelesTriangle" configurationId="JUnit" />
+    <history-entry file="DiamondTest_shouldReturnCenteredDiamond - 2017.06.04 at 23h 01m 17s.xml">
+      <configuration name="DiamondTest.shouldReturnCenteredDiamond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_shouldReturnIsoscelesTriangle - 2017.06.04 at 22h 38m 57s.xml">
-      <configuration name="DiamondTest.shouldReturnIsoscelesTriangle" configurationId="JUnit" />
+    <history-entry file="DiamondTest_shouldReturnCenteredDiamond - 2017.06.04 at 23h 07m 08s.xml">
+      <configuration name="DiamondTest.shouldReturnCenteredDiamond" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DiamondTest_shouldReturnIsoscelesTriangle - 2017.06.04 at 22h 39m 21s.xml">
       <configuration name="DiamondTest.shouldReturnIsoscelesTriangle" configurationId="JUnit" />
@@ -781,7 +813,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2415000" />
+    <option name="totallyTimeSpent" value="3742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -796,7 +828,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -841,31 +873,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exercises/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#792#793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DiamondApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        <state relative-caret-position="120">
+          <caret line="8" column="77" lean-forward="false" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/exercises/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="345">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
             <element signature="e#299#300#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exercises/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
