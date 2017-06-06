@@ -25,6 +25,11 @@ public class DiamondTest {
         assertThat(diamond.centeredDiamond(3), is("   *\n  ***\n *****\n  ***\n   *\n"));
     }
 
+    @Test
+    public void shouldReturnCenterdDiamondWithName(){
+        assertThat(diamond.centeredDiamondWithName(3, "Lovelace"), is ("   *\n  ***\n Lovelace\n  ***\n   *\n"));
+    }
+
 
 
 }
